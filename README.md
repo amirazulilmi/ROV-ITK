@@ -8,18 +8,10 @@ templates/index.html ==> untuk atur web nya, kaya desain web. buat ubah2 tombol
 ## libraries:
 Flask: Framework web yang digunakan untuk membuat aplikasi web ==> pip install Flask
 
-Flask-SocketIO: Ekstensi Flask yang memungkinkan komunikasi real-time antara server dan klien melalui WebSocket
+Flask-SocketIO: Ekstensi Flask yang memungkinkan komunikasi real-time antara server dan klien melalui WebSocket ==> pip install flask-socketio
 
-pip install flask-socketio
+NumPy: Pustaka Python untuk pemrosesan data numerik ==> pip install numpy
 
-NumPy: Pustaka Python untuk pemrosesan data numerik
+Matplotlib ==> pip install matplotlib
 
-pip install numpy
-
-Matplotlib
-
-pip install matplotlib
-
-pyserial: Pustaka yang digunakan untuk berkomunikasi dengan perangkat serial (arduino)
-
-pip install pyserial
+pyserial: Pustaka yang digunakan untuk berkomunikasi dengan perangkat serial (arduino) ==> pip install pyserial
