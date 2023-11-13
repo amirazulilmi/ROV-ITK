@@ -5,6 +5,10 @@ file app.py ==> merintahin motor buat gerak (maju, kanan, kiri, naik, dll) dan a
 
 templates/index.html ==> untuk atur web nya, kaya desain web. buat ubah2 tombol
 
+kamera hubungin ke port usb
+
+joystick bisa di port laptop
+
 ## libraries:
 Flask: Framework web yang digunakan untuk membuat aplikasi web ==> pip install Flask
 
