@@ -5,7 +5,7 @@ file app.py ==> merintahin motor buat gerak (maju, kanan, kiri, naik, dll) dan a
 
 templates/index.html ==> untuk atur web nya, kaya desain web. buat ubah2 tombol
 
-kamera hubungin ke port usb
+kamera hubungin ke port usb rpi
 
 joystick bisa di port laptop
 
