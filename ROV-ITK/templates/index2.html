@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <div
+      id="joy1Div"
+      style="width: 300px; height: 300px; margin-bottom: 20px"
+    ></div>
+
+    <script
+      src="https://cdn.socket.io/4.4.1/socket.io.min.js"
+      integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/joy.min.js') }}"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        const sock = io();
+        const joy1 = new JoyStick("joy1Div", {}, function (stickData) {
+          console.log(stickData);
+          sock.emit("stick", stickData);
+        });
+      })();
+    </script>
+  </body>
+</html>
