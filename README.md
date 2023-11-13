@@ -14,6 +14,8 @@ Flask: Framework web yang digunakan untuk membuat aplikasi web ==> pip install F
 
 Flask-SocketIO: Ekstensi Flask yang memungkinkan komunikasi real-time antara server dan klien melalui WebSocket ==> pip install flask-socketio
 
+OpenCV (cv2) ==> pip install opencv-python
+
 NumPy: Pustaka Python untuk pemrosesan data numerik ==> pip install numpy
 
 Matplotlib ==> pip install matplotlib
