@@ -6,9 +6,7 @@ file app.py ==> merintahin motor buat gerak (maju, kanan, kiri, naik, dll) dan a
 templates/index.html ==> untuk atur web nya, kaya desain web. buat ubah2 tombol
 
 ## libraries:
-Flask: Framework web yang digunakan untuk membuat aplikasi web
-
-pip install Flask
+Flask: Framework web yang digunakan untuk membuat aplikasi web ==> pip install Flask
 
 Flask-SocketIO: Ekstensi Flask yang memungkinkan komunikasi real-time antara server dan klien melalui WebSocket
 
